@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Second Activity"
+        android:textSize="30dp"
+        android:layout_marginBottom="120dp" />
+
+    <Button
+        android:id="@+id/toFirst"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/myTextView"
+        android:layout_centerHorizontal="true"
+        android:text="To first activity"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/toThird"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/toFirst"
+        android:layout_centerHorizontal="true"
+        android:text="To third activity"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/toThird"
+        android:layout_centerHorizontal="true"
+        android:text="Back"
+        android:textSize="20dp" />
+
+</RelativeLayout>
